@@ -1,0 +1,23 @@
+[theme]
+# Subtle neonatal care theme with balanced colors
+primaryColor = "#5B9BD5"  # Soft blue for buttons and highlights
+backgroundColor = "#ffffff"  # Very light gray-blue background
+secondaryBackgroundColor = "#E8F4FA"  # Subtle blue-gray for sidebars and cards
+textColor = "#2C3E50"  # Dark blue-gray for readable text
+font = "sans serif"
+
+[client]
+showSidebarNavigation = false
+
+[server]
+# Development settings
+runOnSave = true
+port = 8501
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+magicEnabled = true
+fastReruns = true
+
